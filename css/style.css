@@ -302,7 +302,7 @@ input:focus {
   .page-area,
   .blog-area {
     padding-top: 70px;
-    padding-bottom: 22px;
+    padding-bottom: 40px;
   }
 }
 .page-area .page-links,
@@ -3468,7 +3468,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   position: fixed;
   z-index: 9999;
   -webkit-box-shadow: 0 7px 24px 0 rgba(0, 0, 0, 0.05);
-          box-shadow: 0 7px 24px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 6px;
   background: #fff;
   margin-top: 0;
   -webkit-transition: all 0.5s ease-out;
@@ -4543,7 +4543,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .menu-sidebar-area .menu-sidebar-logo {
   display: inline-block;
-  width: 180px;
+  width: 200px;
 }
 .menu-sidebar-area .menu-sidebar-wrapper {
   position: relative;
@@ -5762,6 +5762,9 @@ body.admin-bar .header-menu-area.sticky_menu {
     width: 100%;
     height: auto;
   }
+  .logo-wrapper img {
+    width: 240px !important;
+}
 }
 .after-before-image .after-before-image-inner img {
   width: 100%;
@@ -10396,7 +10399,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media (max-width: 991px) {
   .page-breadcrumb-area {
-    padding: 100px 0;
+    padding: 60px 0;
   }
 }
 @media (max-width: 767px) {
@@ -10445,8 +10448,8 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .page-heading h3,
   .page-heading .page-title {
-    font-size: 60px;
-    line-height: 72px;
+    font-size: 32px;
+    line-height: 50px;
   }
 }
 
@@ -11438,7 +11441,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media (max-width: 991px) {
   .sidebar {
     padding-left: 0;
-    padding-top: 40px;
+    padding-top: 4px;
   }
 }
 
@@ -12495,6 +12498,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .widget_service_promotion {
     padding: 44px 25px;
+    display: none;
   }
 }
 
@@ -13074,7 +13078,7 @@ ul.children {
 .team-member-card {
   position: relative;
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .team-member-card {
@@ -13083,17 +13087,17 @@ ul.children {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .team-member-card {
-    height: 450px;
+    /* height: 450px; */
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .team-member-card {
-    height: 450px;
+    /* height: 450px; */
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 576px) {
   .team-member-card {
-    height: 450px;
+    /* height: 0px; */
   }
 }
 .team-member-card:hover .image:before {
@@ -13142,7 +13146,7 @@ ul.children {
 }
 .team-member-card .image {
   border-radius: 2px;
-  overflow: hidden;
+  /* overflow: hidden; */
   height: 100%;
 }
 .team-member-card .image:before {
@@ -15132,7 +15136,7 @@ ul.children {
 }
 .contact-map-area .map-widget iframe {
   width: 100%;
-  height: 470px;
+  height: 350px;
   border-radius: 12px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -16292,8 +16296,12 @@ ul.children {
 }
 .team-member-card img{
   border: 1px solid #e7020c;
-}.team-member-cards{
+}
+.team-member-cards{
   z-index: 111111;
+}
+.team-member-cards .image{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 10px;
 }
 .social-links .facbook {
   background-color: #1477f0;
@@ -16349,4 +16357,18 @@ ul.children {
 .table-striped>tbody>tr:nth-of-type(odd)>* {
   --bs-table-accent-bg: rgb(55 40 93 / 17%);
   color: var(--bs-table-striped-color);
+}
+.mfp-wrap {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2000002;
+  position: fixed;
+  outline: none !important;
+  -webkit-backface-visibility: hidden;
+}
+.sticky-logo img{
+  width: 300px;
+  padding: 5px 0px;
 }
