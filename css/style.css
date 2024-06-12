@@ -5763,7 +5763,10 @@ body.admin-bar .header-menu-area.sticky_menu {
     height: auto;
   }
   .logo-wrapper img {
-    width: 240px !important;
+    width: 230px !important;
+  }
+  .cta-card .cta-content .sub-title {
+    padding-right: 0px !important;
 }
 }
 .after-before-image .after-before-image-inner img {
@@ -9268,8 +9271,8 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .post-card .content .title {
-    font-size: 24px;
-    line-height: 34px;
+    font-size: 20px;
+    line-height: 24px;
     height: unset;
     overflow: visible;
   }
@@ -9939,13 +9942,13 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media (max-width: 1399px) {
   .cta-card .cta-content .title {
-    font-size: 36px;
+    font-size: 30px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .cta-card .cta-content .title {
     line-height: 42px;
-    padding-right: 40px;
+    padding-right: 0px;
   }
 }
 .cta-card .cta-content .sub-title {
@@ -9953,6 +9956,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #ffffff;
   font-size: 18px;
   margin-bottom: 0;
+  padding-right: 80px;
 }
 .cta-card .cta-phone-number {
   display: -webkit-box;
@@ -10195,7 +10199,10 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .section-title .short-title {
     font-size: 20px;
-    padding-left: 35px;
+    padding-left: 0px;
+  }
+  .sticky-header .mobile-menu-bar a {
+    margin-right: 30px;
   }
 }
 .section-title .title {
@@ -15069,7 +15076,7 @@ ul.children {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .contact-form-area {
-    padding: 80px 0;
+    padding: 60px 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -15123,7 +15130,7 @@ ul.children {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .contact-map-area {
-    padding-bottom: 80px;
+    padding-bottom: 50px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -15151,8 +15158,8 @@ ul.children {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .service-area.style-2 {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 70px;
+    padding-bottom: 50px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
